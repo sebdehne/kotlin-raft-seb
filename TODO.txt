@@ -1,0 +1,8 @@
+Raft:
+- Are all 3 issues addressed regarding config change?
+- snapshot replication for faster catch-up?
+
+Tests to write:
+- a follower has a different log and must delete it and re-replicate from leader
+- add a value during config change
+- election during a config change
